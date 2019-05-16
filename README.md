@@ -17,3 +17,8 @@ Your task in this exercise is to apply this principle of MVVM to the `Viewcontro
 - Once successfully completed, the table view presented in the app will look like the screenshot below:
 
 ![Working_table_view](Working_table_view.png) </br>
+
+
+### TIPS:
+
+- Pay close attention to all the `//TODO:` comments -- they are there to guide you...
