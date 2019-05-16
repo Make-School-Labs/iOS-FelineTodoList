@@ -74,6 +74,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		440336C0228DD2CB005E4796 /* view_models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view_models;
+			sourceTree = "<group>";
+		};
+		440336C1228DD2E2005E4796 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				440336C2228DD2FC005E4796 /* views */,
+				44A40C2D21B37219008FCA31 /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		440336C2228DD2FC005E4796 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				44A40C3421B3721A008FCA31 /* LaunchScreen.storyboard */,
+				44A40C2F21B37219008FCA31 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		440336C3228DD316005E4796 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		44A40C1F21B37219008FCA31 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +129,11 @@
 		44A40C2A21B37219008FCA31 /* FelineTaskList4 */ = {
 			isa = PBXGroup;
 			children = (
+				440336C1228DD2E2005E4796 /* controllers */,
+				440336C3228DD316005E4796 /* models */,
+				440336C0228DD2CB005E4796 /* view_models */,
 				44A40C2B21B37219008FCA31 /* AppDelegate.swift */,
-				44A40C2D21B37219008FCA31 /* ViewController.swift */,
-				44A40C2F21B37219008FCA31 /* Main.storyboard */,
 				44A40C3221B3721A008FCA31 /* Assets.xcassets */,
-				44A40C3421B3721A008FCA31 /* LaunchScreen.storyboard */,
 				44A40C3721B3721A008FCA31 /* Info.plist */,
 			);
 			path = FelineTaskList4;
