@@ -12,9 +12,10 @@ class TodoListViewModel {
     
     var numberOfSections: Int = 1
     
+    //TODO: Implement array (data source) here...
     
     
-    func rowsPerSection() -> Int {
-        return allTasksArray.count
-    }
+    //TODO: Create rowsPerSection() that returns the count of the data source array...
+    
+    
 }

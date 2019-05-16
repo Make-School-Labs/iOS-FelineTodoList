@@ -11,7 +11,9 @@ import UIKit
 //TODO: If VC is no longer the data source, should it extend UITableViewController?
 class ViewController: UITableViewController {
 
-     //TODO: Relocate/refactor data source outside of the VC...
+    //TODO: You might need properties for the table view and new data source...
+    
+    //TODO: Relocate/refactor data source outside of the VC...
     
     var allTasksArray = ["Preen and Stretch",
                          "Wait for lazy humans to open door",
@@ -37,7 +39,10 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //TODO: Set new table view data source delegate
     }
+    
     
     //TODO: Refactor all TableView Data Source Delegate methods (somewhere outside of the VC)...
     
